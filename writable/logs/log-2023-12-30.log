@@ -1,0 +1,710 @@
+ERROR - 2023-12-30 11:37:08 --> Error connecting to the database: Call to undefined function CodeIgniter\Database\Postgre\pg_connect()
+CRITICAL - 2023-12-30 11:37:08 --> Unable to connect to the database.
+Main connection [Postgre]: Call to undefined function CodeIgniter\Database\Postgre\pg_connect()
+#0 C:\xampp\htdocs\codeigniter4\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\codeigniter4\app\Controllers\Home.php(29): CodeIgniter\Database\BaseConnection->query('SELECT * FROM p...')
+#2 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(825): App\Controllers\Home->baseDatos()
+#3 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\codeigniter4\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2023-12-30 11:41:35 --> Error connecting to the database: Call to undefined function CodeIgniter\Database\Postgre\pg_connect()
+CRITICAL - 2023-12-30 11:41:35 --> Unable to connect to the database.
+Main connection [Postgre]: Call to undefined function CodeIgniter\Database\Postgre\pg_connect()
+#0 C:\xampp\htdocs\codeigniter4\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\codeigniter4\app\Controllers\Home.php(29): CodeIgniter\Database\BaseConnection->query('SELECT * FROM e...')
+#2 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(825): App\Controllers\Home->baseDatos()
+#3 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\codeigniter4\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-12-30 11:42:04 --> You have not selected a database type to connect to.
+#0 C:\xampp\htdocs\codeigniter4\system\Database\Config.php(78): CodeIgniter\Database\Database->load(Array, 'default')
+#1 C:\xampp\htdocs\codeigniter4\app\Controllers\Home.php(28): CodeIgniter\Database\Config::connect()
+#2 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(825): App\Controllers\Home->baseDatos()
+#3 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\codeigniter4\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-12-30 11:42:35 --> You have not selected a database type to connect to.
+#0 C:\xampp\htdocs\codeigniter4\system\Database\Config.php(78): CodeIgniter\Database\Database->load(Array, 'default')
+#1 C:\xampp\htdocs\codeigniter4\app\Controllers\Home.php(28): CodeIgniter\Database\Config::connect()
+#2 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(825): App\Controllers\Home->baseDatos()
+#3 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\codeigniter4\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-12-30 11:42:37 --> You have not selected a database type to connect to.
+#0 C:\xampp\htdocs\codeigniter4\system\Database\Config.php(78): CodeIgniter\Database\Database->load(Array, 'default')
+#1 C:\xampp\htdocs\codeigniter4\app\Controllers\Home.php(28): CodeIgniter\Database\Config::connect()
+#2 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(825): App\Controllers\Home->baseDatos()
+#3 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\codeigniter4\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-12-30 11:42:38 --> You have not selected a database type to connect to.
+#0 C:\xampp\htdocs\codeigniter4\system\Database\Config.php(78): CodeIgniter\Database\Database->load(Array, 'default')
+#1 C:\xampp\htdocs\codeigniter4\app\Controllers\Home.php(28): CodeIgniter\Database\Config::connect()
+#2 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(825): App\Controllers\Home->baseDatos()
+#3 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\codeigniter4\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-12-30 11:42:39 --> You have not selected a database type to connect to.
+#0 C:\xampp\htdocs\codeigniter4\system\Database\Config.php(78): CodeIgniter\Database\Database->load(Array, 'default')
+#1 C:\xampp\htdocs\codeigniter4\app\Controllers\Home.php(28): CodeIgniter\Database\Config::connect()
+#2 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(825): App\Controllers\Home->baseDatos()
+#3 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\codeigniter4\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-12-30 11:42:39 --> You have not selected a database type to connect to.
+#0 C:\xampp\htdocs\codeigniter4\system\Database\Config.php(78): CodeIgniter\Database\Database->load(Array, 'default')
+#1 C:\xampp\htdocs\codeigniter4\app\Controllers\Home.php(28): CodeIgniter\Database\Config::connect()
+#2 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(825): App\Controllers\Home->baseDatos()
+#3 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\codeigniter4\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-12-30 11:42:39 --> You have not selected a database type to connect to.
+#0 C:\xampp\htdocs\codeigniter4\system\Database\Config.php(78): CodeIgniter\Database\Database->load(Array, 'default')
+#1 C:\xampp\htdocs\codeigniter4\app\Controllers\Home.php(28): CodeIgniter\Database\Config::connect()
+#2 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(825): App\Controllers\Home->baseDatos()
+#3 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\codeigniter4\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-12-30 11:42:40 --> You have not selected a database type to connect to.
+#0 C:\xampp\htdocs\codeigniter4\system\Database\Config.php(78): CodeIgniter\Database\Database->load(Array, 'default')
+#1 C:\xampp\htdocs\codeigniter4\app\Controllers\Home.php(28): CodeIgniter\Database\Config::connect()
+#2 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(825): App\Controllers\Home->baseDatos()
+#3 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\codeigniter4\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2023-12-30 11:42:50 --> Error connecting to the database: Call to undefined function CodeIgniter\Database\Postgre\pg_connect()
+CRITICAL - 2023-12-30 11:42:50 --> Unable to connect to the database.
+Main connection [postgre]: Call to undefined function CodeIgniter\Database\Postgre\pg_connect()
+#0 C:\xampp\htdocs\codeigniter4\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\codeigniter4\app\Controllers\Home.php(29): CodeIgniter\Database\BaseConnection->query('SELECT * FROM e...')
+#2 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(825): App\Controllers\Home->baseDatos()
+#3 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\codeigniter4\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2023-12-30 11:43:01 --> Error connecting to the database: Call to undefined function CodeIgniter\Database\Postgre\pg_connect()
+CRITICAL - 2023-12-30 11:43:01 --> Unable to connect to the database.
+Main connection [Postgre]: Call to undefined function CodeIgniter\Database\Postgre\pg_connect()
+#0 C:\xampp\htdocs\codeigniter4\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\codeigniter4\app\Controllers\Home.php(29): CodeIgniter\Database\BaseConnection->query('SELECT * FROM e...')
+#2 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(825): App\Controllers\Home->baseDatos()
+#3 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\codeigniter4\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2023-12-30 11:44:46 --> Error connecting to the database: Call to undefined function CodeIgniter\Database\Postgre\pg_connect()
+CRITICAL - 2023-12-30 11:44:46 --> Unable to connect to the database.
+Main connection [Postgre]: Call to undefined function CodeIgniter\Database\Postgre\pg_connect()
+#0 C:\xampp\htdocs\codeigniter4\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\codeigniter4\app\Controllers\Home.php(29): CodeIgniter\Database\BaseConnection->query('SELECT * FROM e...')
+#2 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(825): App\Controllers\Home->baseDatos()
+#3 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\codeigniter4\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2023-12-30 11:44:50 --> Error connecting to the database: Call to undefined function CodeIgniter\Database\Postgre\pg_connect()
+CRITICAL - 2023-12-30 11:44:50 --> Unable to connect to the database.
+Main connection [Postgre]: Call to undefined function CodeIgniter\Database\Postgre\pg_connect()
+#0 C:\xampp\htdocs\codeigniter4\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\codeigniter4\app\Controllers\Home.php(29): CodeIgniter\Database\BaseConnection->query('SELECT * FROM e...')
+#2 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(825): App\Controllers\Home->baseDatos()
+#3 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\codeigniter4\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2023-12-30 11:44:50 --> Error connecting to the database: Call to undefined function CodeIgniter\Database\Postgre\pg_connect()
+CRITICAL - 2023-12-30 11:44:50 --> Unable to connect to the database.
+Main connection [Postgre]: Call to undefined function CodeIgniter\Database\Postgre\pg_connect()
+#0 C:\xampp\htdocs\codeigniter4\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\codeigniter4\app\Controllers\Home.php(29): CodeIgniter\Database\BaseConnection->query('SELECT * FROM e...')
+#2 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(825): App\Controllers\Home->baseDatos()
+#3 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\codeigniter4\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2023-12-30 11:44:51 --> Error connecting to the database: Call to undefined function CodeIgniter\Database\Postgre\pg_connect()
+CRITICAL - 2023-12-30 11:44:51 --> Unable to connect to the database.
+Main connection [Postgre]: Call to undefined function CodeIgniter\Database\Postgre\pg_connect()
+#0 C:\xampp\htdocs\codeigniter4\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\codeigniter4\app\Controllers\Home.php(29): CodeIgniter\Database\BaseConnection->query('SELECT * FROM e...')
+#2 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(825): App\Controllers\Home->baseDatos()
+#3 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\codeigniter4\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-12-30 11:45:03 --> Class "CodeIgniter\Database\pdo\Connection" not found
+#0 C:\xampp\htdocs\codeigniter4\system\Database\Database.php(56): CodeIgniter\Database\Database->initDriver('pdo', 'CodeIgniter\\Dat...', Array)
+#1 C:\xampp\htdocs\codeigniter4\system\Database\Config.php(78): CodeIgniter\Database\Database->load(Array, 'default')
+#2 C:\xampp\htdocs\codeigniter4\app\Controllers\Home.php(28): CodeIgniter\Database\Config::connect()
+#3 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(825): App\Controllers\Home->baseDatos()
+#4 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\codeigniter4\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-12-30 11:46:14 --> Class "CodeIgniter\Database\pdo\Connection" not found
+#0 C:\xampp\htdocs\codeigniter4\system\Database\Database.php(56): CodeIgniter\Database\Database->initDriver('pdo', 'CodeIgniter\\Dat...', Array)
+#1 C:\xampp\htdocs\codeigniter4\system\Database\Config.php(78): CodeIgniter\Database\Database->load(Array, 'default')
+#2 C:\xampp\htdocs\codeigniter4\app\Controllers\Home.php(28): CodeIgniter\Database\Config::connect('default')
+#3 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(825): App\Controllers\Home->baseDatos()
+#4 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\codeigniter4\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-12-30 11:46:16 --> Class "CodeIgniter\Database\pdo\Connection" not found
+#0 C:\xampp\htdocs\codeigniter4\system\Database\Database.php(56): CodeIgniter\Database\Database->initDriver('pdo', 'CodeIgniter\\Dat...', Array)
+#1 C:\xampp\htdocs\codeigniter4\system\Database\Config.php(78): CodeIgniter\Database\Database->load(Array, 'default')
+#2 C:\xampp\htdocs\codeigniter4\app\Controllers\Home.php(28): CodeIgniter\Database\Config::connect('default')
+#3 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(825): App\Controllers\Home->baseDatos()
+#4 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\codeigniter4\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-12-30 11:46:17 --> Class "CodeIgniter\Database\pdo\Connection" not found
+#0 C:\xampp\htdocs\codeigniter4\system\Database\Database.php(56): CodeIgniter\Database\Database->initDriver('pdo', 'CodeIgniter\\Dat...', Array)
+#1 C:\xampp\htdocs\codeigniter4\system\Database\Config.php(78): CodeIgniter\Database\Database->load(Array, 'default')
+#2 C:\xampp\htdocs\codeigniter4\app\Controllers\Home.php(28): CodeIgniter\Database\Config::connect('default')
+#3 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(825): App\Controllers\Home->baseDatos()
+#4 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\codeigniter4\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-12-30 11:46:17 --> Class "CodeIgniter\Database\pdo\Connection" not found
+#0 C:\xampp\htdocs\codeigniter4\system\Database\Database.php(56): CodeIgniter\Database\Database->initDriver('pdo', 'CodeIgniter\\Dat...', Array)
+#1 C:\xampp\htdocs\codeigniter4\system\Database\Config.php(78): CodeIgniter\Database\Database->load(Array, 'default')
+#2 C:\xampp\htdocs\codeigniter4\app\Controllers\Home.php(28): CodeIgniter\Database\Config::connect('default')
+#3 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(825): App\Controllers\Home->baseDatos()
+#4 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\codeigniter4\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-12-30 11:46:17 --> Class "CodeIgniter\Database\pdo\Connection" not found
+#0 C:\xampp\htdocs\codeigniter4\system\Database\Database.php(56): CodeIgniter\Database\Database->initDriver('pdo', 'CodeIgniter\\Dat...', Array)
+#1 C:\xampp\htdocs\codeigniter4\system\Database\Config.php(78): CodeIgniter\Database\Database->load(Array, 'default')
+#2 C:\xampp\htdocs\codeigniter4\app\Controllers\Home.php(28): CodeIgniter\Database\Config::connect('default')
+#3 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(825): App\Controllers\Home->baseDatos()
+#4 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\codeigniter4\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-12-30 11:46:17 --> Class "CodeIgniter\Database\pdo\Connection" not found
+#0 C:\xampp\htdocs\codeigniter4\system\Database\Database.php(56): CodeIgniter\Database\Database->initDriver('pdo', 'CodeIgniter\\Dat...', Array)
+#1 C:\xampp\htdocs\codeigniter4\system\Database\Config.php(78): CodeIgniter\Database\Database->load(Array, 'default')
+#2 C:\xampp\htdocs\codeigniter4\app\Controllers\Home.php(28): CodeIgniter\Database\Config::connect('default')
+#3 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(825): App\Controllers\Home->baseDatos()
+#4 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\codeigniter4\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-12-30 11:48:34 --> Class "CodeIgniter\Database\pdo\Connection" not found
+#0 C:\xampp\htdocs\codeigniter4\system\Database\Database.php(56): CodeIgniter\Database\Database->initDriver('pdo', 'CodeIgniter\\Dat...', Array)
+#1 C:\xampp\htdocs\codeigniter4\system\Database\Config.php(78): CodeIgniter\Database\Database->load(Array, 'default')
+#2 C:\xampp\htdocs\codeigniter4\app\Controllers\Home.php(28): CodeIgniter\Database\Config::connect()
+#3 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(825): App\Controllers\Home->baseDatos()
+#4 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\codeigniter4\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-12-30 11:48:35 --> Class "CodeIgniter\Database\pdo\Connection" not found
+#0 C:\xampp\htdocs\codeigniter4\system\Database\Database.php(56): CodeIgniter\Database\Database->initDriver('pdo', 'CodeIgniter\\Dat...', Array)
+#1 C:\xampp\htdocs\codeigniter4\system\Database\Config.php(78): CodeIgniter\Database\Database->load(Array, 'default')
+#2 C:\xampp\htdocs\codeigniter4\app\Controllers\Home.php(28): CodeIgniter\Database\Config::connect()
+#3 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(825): App\Controllers\Home->baseDatos()
+#4 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\codeigniter4\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-12-30 11:48:36 --> Class "CodeIgniter\Database\pdo\Connection" not found
+#0 C:\xampp\htdocs\codeigniter4\system\Database\Database.php(56): CodeIgniter\Database\Database->initDriver('pdo', 'CodeIgniter\\Dat...', Array)
+#1 C:\xampp\htdocs\codeigniter4\system\Database\Config.php(78): CodeIgniter\Database\Database->load(Array, 'default')
+#2 C:\xampp\htdocs\codeigniter4\app\Controllers\Home.php(28): CodeIgniter\Database\Config::connect()
+#3 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(825): App\Controllers\Home->baseDatos()
+#4 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\codeigniter4\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-12-30 11:48:36 --> Class "CodeIgniter\Database\pdo\Connection" not found
+#0 C:\xampp\htdocs\codeigniter4\system\Database\Database.php(56): CodeIgniter\Database\Database->initDriver('pdo', 'CodeIgniter\\Dat...', Array)
+#1 C:\xampp\htdocs\codeigniter4\system\Database\Config.php(78): CodeIgniter\Database\Database->load(Array, 'default')
+#2 C:\xampp\htdocs\codeigniter4\app\Controllers\Home.php(28): CodeIgniter\Database\Config::connect()
+#3 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(825): App\Controllers\Home->baseDatos()
+#4 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\codeigniter4\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-12-30 11:48:36 --> Class "CodeIgniter\Database\pdo\Connection" not found
+#0 C:\xampp\htdocs\codeigniter4\system\Database\Database.php(56): CodeIgniter\Database\Database->initDriver('pdo', 'CodeIgniter\\Dat...', Array)
+#1 C:\xampp\htdocs\codeigniter4\system\Database\Config.php(78): CodeIgniter\Database\Database->load(Array, 'default')
+#2 C:\xampp\htdocs\codeigniter4\app\Controllers\Home.php(28): CodeIgniter\Database\Config::connect()
+#3 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(825): App\Controllers\Home->baseDatos()
+#4 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\codeigniter4\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-12-30 11:48:37 --> Class "CodeIgniter\Database\pdo\Connection" not found
+#0 C:\xampp\htdocs\codeigniter4\system\Database\Database.php(56): CodeIgniter\Database\Database->initDriver('pdo', 'CodeIgniter\\Dat...', Array)
+#1 C:\xampp\htdocs\codeigniter4\system\Database\Config.php(78): CodeIgniter\Database\Database->load(Array, 'default')
+#2 C:\xampp\htdocs\codeigniter4\app\Controllers\Home.php(28): CodeIgniter\Database\Config::connect()
+#3 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(825): App\Controllers\Home->baseDatos()
+#4 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\codeigniter4\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-12-30 11:48:37 --> Class "CodeIgniter\Database\pdo\Connection" not found
+#0 C:\xampp\htdocs\codeigniter4\system\Database\Database.php(56): CodeIgniter\Database\Database->initDriver('pdo', 'CodeIgniter\\Dat...', Array)
+#1 C:\xampp\htdocs\codeigniter4\system\Database\Config.php(78): CodeIgniter\Database\Database->load(Array, 'default')
+#2 C:\xampp\htdocs\codeigniter4\app\Controllers\Home.php(28): CodeIgniter\Database\Config::connect()
+#3 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(825): App\Controllers\Home->baseDatos()
+#4 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\codeigniter4\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-12-30 11:48:37 --> Class "CodeIgniter\Database\pdo\Connection" not found
+#0 C:\xampp\htdocs\codeigniter4\system\Database\Database.php(56): CodeIgniter\Database\Database->initDriver('pdo', 'CodeIgniter\\Dat...', Array)
+#1 C:\xampp\htdocs\codeigniter4\system\Database\Config.php(78): CodeIgniter\Database\Database->load(Array, 'default')
+#2 C:\xampp\htdocs\codeigniter4\app\Controllers\Home.php(28): CodeIgniter\Database\Config::connect()
+#3 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(825): App\Controllers\Home->baseDatos()
+#4 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\codeigniter4\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-12-30 11:48:37 --> Class "CodeIgniter\Database\pdo\Connection" not found
+#0 C:\xampp\htdocs\codeigniter4\system\Database\Database.php(56): CodeIgniter\Database\Database->initDriver('pdo', 'CodeIgniter\\Dat...', Array)
+#1 C:\xampp\htdocs\codeigniter4\system\Database\Config.php(78): CodeIgniter\Database\Database->load(Array, 'default')
+#2 C:\xampp\htdocs\codeigniter4\app\Controllers\Home.php(28): CodeIgniter\Database\Config::connect()
+#3 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(825): App\Controllers\Home->baseDatos()
+#4 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\codeigniter4\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-12-30 11:48:37 --> Class "CodeIgniter\Database\pdo\Connection" not found
+#0 C:\xampp\htdocs\codeigniter4\system\Database\Database.php(56): CodeIgniter\Database\Database->initDriver('pdo', 'CodeIgniter\\Dat...', Array)
+#1 C:\xampp\htdocs\codeigniter4\system\Database\Config.php(78): CodeIgniter\Database\Database->load(Array, 'default')
+#2 C:\xampp\htdocs\codeigniter4\app\Controllers\Home.php(28): CodeIgniter\Database\Config::connect()
+#3 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(825): App\Controllers\Home->baseDatos()
+#4 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\codeigniter4\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-12-30 11:48:37 --> Class "CodeIgniter\Database\pdo\Connection" not found
+#0 C:\xampp\htdocs\codeigniter4\system\Database\Database.php(56): CodeIgniter\Database\Database->initDriver('pdo', 'CodeIgniter\\Dat...', Array)
+#1 C:\xampp\htdocs\codeigniter4\system\Database\Config.php(78): CodeIgniter\Database\Database->load(Array, 'default')
+#2 C:\xampp\htdocs\codeigniter4\app\Controllers\Home.php(28): CodeIgniter\Database\Config::connect()
+#3 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(825): App\Controllers\Home->baseDatos()
+#4 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\codeigniter4\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-12-30 11:49:14 --> Class "CodeIgniter\Database\pdo\Connection" not found
+#0 C:\xampp\htdocs\codeigniter4\system\Database\Database.php(56): CodeIgniter\Database\Database->initDriver('pdo', 'CodeIgniter\\Dat...', Array)
+#1 C:\xampp\htdocs\codeigniter4\system\Database\Config.php(78): CodeIgniter\Database\Database->load(Array, 'default')
+#2 C:\xampp\htdocs\codeigniter4\app\Controllers\Home.php(28): CodeIgniter\Database\Config::connect()
+#3 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(825): App\Controllers\Home->baseDatos()
+#4 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\codeigniter4\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-12-30 11:49:15 --> Class "CodeIgniter\Database\pdo\Connection" not found
+#0 C:\xampp\htdocs\codeigniter4\system\Database\Database.php(56): CodeIgniter\Database\Database->initDriver('pdo', 'CodeIgniter\\Dat...', Array)
+#1 C:\xampp\htdocs\codeigniter4\system\Database\Config.php(78): CodeIgniter\Database\Database->load(Array, 'default')
+#2 C:\xampp\htdocs\codeigniter4\app\Controllers\Home.php(28): CodeIgniter\Database\Config::connect()
+#3 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(825): App\Controllers\Home->baseDatos()
+#4 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\codeigniter4\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-12-30 11:49:15 --> Class "CodeIgniter\Database\pdo\Connection" not found
+#0 C:\xampp\htdocs\codeigniter4\system\Database\Database.php(56): CodeIgniter\Database\Database->initDriver('pdo', 'CodeIgniter\\Dat...', Array)
+#1 C:\xampp\htdocs\codeigniter4\system\Database\Config.php(78): CodeIgniter\Database\Database->load(Array, 'default')
+#2 C:\xampp\htdocs\codeigniter4\app\Controllers\Home.php(28): CodeIgniter\Database\Config::connect()
+#3 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(825): App\Controllers\Home->baseDatos()
+#4 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\codeigniter4\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-12-30 11:49:16 --> Class "CodeIgniter\Database\pdo\Connection" not found
+#0 C:\xampp\htdocs\codeigniter4\system\Database\Database.php(56): CodeIgniter\Database\Database->initDriver('pdo', 'CodeIgniter\\Dat...', Array)
+#1 C:\xampp\htdocs\codeigniter4\system\Database\Config.php(78): CodeIgniter\Database\Database->load(Array, 'default')
+#2 C:\xampp\htdocs\codeigniter4\app\Controllers\Home.php(28): CodeIgniter\Database\Config::connect()
+#3 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(825): App\Controllers\Home->baseDatos()
+#4 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\codeigniter4\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-12-30 11:49:16 --> Class "CodeIgniter\Database\pdo\Connection" not found
+#0 C:\xampp\htdocs\codeigniter4\system\Database\Database.php(56): CodeIgniter\Database\Database->initDriver('pdo', 'CodeIgniter\\Dat...', Array)
+#1 C:\xampp\htdocs\codeigniter4\system\Database\Config.php(78): CodeIgniter\Database\Database->load(Array, 'default')
+#2 C:\xampp\htdocs\codeigniter4\app\Controllers\Home.php(28): CodeIgniter\Database\Config::connect()
+#3 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(825): App\Controllers\Home->baseDatos()
+#4 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\codeigniter4\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-12-30 11:49:16 --> Class "CodeIgniter\Database\pdo\Connection" not found
+#0 C:\xampp\htdocs\codeigniter4\system\Database\Database.php(56): CodeIgniter\Database\Database->initDriver('pdo', 'CodeIgniter\\Dat...', Array)
+#1 C:\xampp\htdocs\codeigniter4\system\Database\Config.php(78): CodeIgniter\Database\Database->load(Array, 'default')
+#2 C:\xampp\htdocs\codeigniter4\app\Controllers\Home.php(28): CodeIgniter\Database\Config::connect()
+#3 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(825): App\Controllers\Home->baseDatos()
+#4 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\codeigniter4\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-12-30 11:49:16 --> Class "CodeIgniter\Database\pdo\Connection" not found
+#0 C:\xampp\htdocs\codeigniter4\system\Database\Database.php(56): CodeIgniter\Database\Database->initDriver('pdo', 'CodeIgniter\\Dat...', Array)
+#1 C:\xampp\htdocs\codeigniter4\system\Database\Config.php(78): CodeIgniter\Database\Database->load(Array, 'default')
+#2 C:\xampp\htdocs\codeigniter4\app\Controllers\Home.php(28): CodeIgniter\Database\Config::connect()
+#3 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(825): App\Controllers\Home->baseDatos()
+#4 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\codeigniter4\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-12-30 11:49:16 --> Class "CodeIgniter\Database\pdo\Connection" not found
+#0 C:\xampp\htdocs\codeigniter4\system\Database\Database.php(56): CodeIgniter\Database\Database->initDriver('pdo', 'CodeIgniter\\Dat...', Array)
+#1 C:\xampp\htdocs\codeigniter4\system\Database\Config.php(78): CodeIgniter\Database\Database->load(Array, 'default')
+#2 C:\xampp\htdocs\codeigniter4\app\Controllers\Home.php(28): CodeIgniter\Database\Config::connect()
+#3 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(825): App\Controllers\Home->baseDatos()
+#4 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\codeigniter4\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-12-30 11:49:16 --> Class "CodeIgniter\Database\pdo\Connection" not found
+#0 C:\xampp\htdocs\codeigniter4\system\Database\Database.php(56): CodeIgniter\Database\Database->initDriver('pdo', 'CodeIgniter\\Dat...', Array)
+#1 C:\xampp\htdocs\codeigniter4\system\Database\Config.php(78): CodeIgniter\Database\Database->load(Array, 'default')
+#2 C:\xampp\htdocs\codeigniter4\app\Controllers\Home.php(28): CodeIgniter\Database\Config::connect()
+#3 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(825): App\Controllers\Home->baseDatos()
+#4 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\codeigniter4\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-12-30 11:49:17 --> Class "CodeIgniter\Database\pdo\Connection" not found
+#0 C:\xampp\htdocs\codeigniter4\system\Database\Database.php(56): CodeIgniter\Database\Database->initDriver('pdo', 'CodeIgniter\\Dat...', Array)
+#1 C:\xampp\htdocs\codeigniter4\system\Database\Config.php(78): CodeIgniter\Database\Database->load(Array, 'default')
+#2 C:\xampp\htdocs\codeigniter4\app\Controllers\Home.php(28): CodeIgniter\Database\Config::connect()
+#3 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(825): App\Controllers\Home->baseDatos()
+#4 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\codeigniter4\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-12-30 11:49:17 --> Class "CodeIgniter\Database\pdo\Connection" not found
+#0 C:\xampp\htdocs\codeigniter4\system\Database\Database.php(56): CodeIgniter\Database\Database->initDriver('pdo', 'CodeIgniter\\Dat...', Array)
+#1 C:\xampp\htdocs\codeigniter4\system\Database\Config.php(78): CodeIgniter\Database\Database->load(Array, 'default')
+#2 C:\xampp\htdocs\codeigniter4\app\Controllers\Home.php(28): CodeIgniter\Database\Config::connect()
+#3 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(825): App\Controllers\Home->baseDatos()
+#4 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\codeigniter4\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2023-12-30 11:50:09 --> Error connecting to the database: Call to undefined function CodeIgniter\Database\Postgre\pg_connect()
+CRITICAL - 2023-12-30 11:50:09 --> Unable to connect to the database.
+Main connection [Postgre]: Call to undefined function CodeIgniter\Database\Postgre\pg_connect()
+#0 C:\xampp\htdocs\codeigniter4\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\codeigniter4\app\Controllers\Home.php(29): CodeIgniter\Database\BaseConnection->query('SELECT * FROM e...')
+#2 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(825): App\Controllers\Home->baseDatos()
+#3 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\codeigniter4\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-12-30 11:50:21 --> Class "CodeIgniter\Database\pdo\Connection" not found
+#0 C:\xampp\htdocs\codeigniter4\system\Database\Database.php(56): CodeIgniter\Database\Database->initDriver('pdo', 'CodeIgniter\\Dat...', Array)
+#1 C:\xampp\htdocs\codeigniter4\system\Database\Config.php(78): CodeIgniter\Database\Database->load(Array, 'default')
+#2 C:\xampp\htdocs\codeigniter4\app\Controllers\Home.php(28): CodeIgniter\Database\Config::connect()
+#3 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(825): App\Controllers\Home->baseDatos()
+#4 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\codeigniter4\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2023-12-30 11:50:41 --> Error connecting to the database: Call to undefined function CodeIgniter\Database\Postgre\pg_connect()
+CRITICAL - 2023-12-30 11:50:41 --> Unable to connect to the database.
+Main connection [Postgre]: Call to undefined function CodeIgniter\Database\Postgre\pg_connect()
+#0 C:\xampp\htdocs\codeigniter4\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\codeigniter4\app\Controllers\Home.php(29): CodeIgniter\Database\BaseConnection->query('SELECT * FROM e...')
+#2 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(825): App\Controllers\Home->baseDatos()
+#3 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\codeigniter4\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2023-12-30 11:53:26 --> Error connecting to the database: pg_connect(): Unable to connect to PostgreSQL server: fe_sendauth: no password supplied
+CRITICAL - 2023-12-30 11:53:26 --> Unable to connect to the database.
+Main connection [Postgre]: pg_connect(): Unable to connect to PostgreSQL server: fe_sendauth: no password supplied
+#0 C:\xampp\htdocs\codeigniter4\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\codeigniter4\app\Controllers\Home.php(29): CodeIgniter\Database\BaseConnection->query('SELECT * FROM e...')
+#2 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(825): App\Controllers\Home->baseDatos()
+#3 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\codeigniter4\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2023-12-30 11:53:27 --> Error connecting to the database: pg_connect(): Unable to connect to PostgreSQL server: fe_sendauth: no password supplied
+CRITICAL - 2023-12-30 11:53:27 --> Unable to connect to the database.
+Main connection [Postgre]: pg_connect(): Unable to connect to PostgreSQL server: fe_sendauth: no password supplied
+#0 C:\xampp\htdocs\codeigniter4\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\codeigniter4\app\Controllers\Home.php(29): CodeIgniter\Database\BaseConnection->query('SELECT * FROM e...')
+#2 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(825): App\Controllers\Home->baseDatos()
+#3 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\codeigniter4\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2023-12-30 11:53:31 --> Error connecting to the database: pg_connect(): Unable to connect to PostgreSQL server: fe_sendauth: no password supplied
+CRITICAL - 2023-12-30 11:53:31 --> Unable to connect to the database.
+Main connection [Postgre]: pg_connect(): Unable to connect to PostgreSQL server: fe_sendauth: no password supplied
+#0 C:\xampp\htdocs\codeigniter4\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\codeigniter4\app\Controllers\Home.php(29): CodeIgniter\Database\BaseConnection->query('SELECT * FROM e...')
+#2 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(825): App\Controllers\Home->baseDatos()
+#3 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\codeigniter4\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2023-12-30 11:53:31 --> Error connecting to the database: pg_connect(): Unable to connect to PostgreSQL server: fe_sendauth: no password supplied
+CRITICAL - 2023-12-30 11:53:31 --> Unable to connect to the database.
+Main connection [Postgre]: pg_connect(): Unable to connect to PostgreSQL server: fe_sendauth: no password supplied
+#0 C:\xampp\htdocs\codeigniter4\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\codeigniter4\app\Controllers\Home.php(29): CodeIgniter\Database\BaseConnection->query('SELECT * FROM e...')
+#2 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(825): App\Controllers\Home->baseDatos()
+#3 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\codeigniter4\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2023-12-30 11:53:32 --> Error connecting to the database: pg_connect(): Unable to connect to PostgreSQL server: fe_sendauth: no password supplied
+CRITICAL - 2023-12-30 11:53:32 --> Unable to connect to the database.
+Main connection [Postgre]: pg_connect(): Unable to connect to PostgreSQL server: fe_sendauth: no password supplied
+#0 C:\xampp\htdocs\codeigniter4\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\codeigniter4\app\Controllers\Home.php(29): CodeIgniter\Database\BaseConnection->query('SELECT * FROM e...')
+#2 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(825): App\Controllers\Home->baseDatos()
+#3 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\codeigniter4\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2023-12-30 11:53:40 --> Class "CodeIgniter\Database\pdo\Connection" not found
+#0 C:\xampp\htdocs\codeigniter4\system\Database\Database.php(56): CodeIgniter\Database\Database->initDriver('pdo', 'CodeIgniter\\Dat...', Array)
+#1 C:\xampp\htdocs\codeigniter4\system\Database\Config.php(78): CodeIgniter\Database\Database->load(Array, 'default')
+#2 C:\xampp\htdocs\codeigniter4\app\Controllers\Home.php(28): CodeIgniter\Database\Config::connect()
+#3 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(825): App\Controllers\Home->baseDatos()
+#4 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\codeigniter4\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2023-12-30 11:56:42 --> Error connecting to the database: pg_connect(): Unable to connect to PostgreSQL server: invalid sslmode value: &quot;1&quot;
+CRITICAL - 2023-12-30 11:56:42 --> Unable to connect to the database.
+Main connection [Postgre]: pg_connect(): Unable to connect to PostgreSQL server: invalid sslmode value: &quot;1&quot;
+#0 C:\xampp\htdocs\codeigniter4\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\codeigniter4\app\Controllers\Home.php(29): CodeIgniter\Database\BaseConnection->query('SELECT * FROM e...')
+#2 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(825): App\Controllers\Home->baseDatos()
+#3 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\codeigniter4\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2023-12-30 13:57:33 --> ErrorException: pg_query(): Query failed: ERROR:  el valor null para la columna «id» viola la restricción not null
+DETAIL:  La fila que falla contiene (null, FRUTAS, t). in C:\xampp\htdocs\codeigniter4\system\Database\Postgre\Connection.php:135
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\xampp\\htdocs...', 135)
+#1 C:\xampp\htdocs\codeigniter4\system\Database\Postgre\Connection.php(135): pg_query(Resource id #136, 'INSERT INTO tip...')
+#2 C:\xampp\htdocs\codeigniter4\system\Database\BaseConnection.php(670): CodeIgniter\Database\Postgre\Connection->execute('INSERT INTO tip...')
+#3 C:\xampp\htdocs\codeigniter4\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO tip...')
+#4 C:\xampp\htdocs\codeigniter4\app\Controllers\Home.php(36): CodeIgniter\Database\BaseConnection->query('INSERT INTO tip...')
+#5 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(825): App\Controllers\Home->crear('FRUTAS')
+#6 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\codeigniter4\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-12-30 13:57:33 --> pg_query(): Query failed: ERROR:  el valor null para la columna «id» viola la restricción not null
+DETAIL:  La fila que falla contiene (null, FRUTAS, t).
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\xampp\\htdocs...', 135)
+#1 C:\xampp\htdocs\codeigniter4\system\Database\Postgre\Connection.php(135): pg_query(Resource id #136, 'INSERT INTO tip...')
+#2 C:\xampp\htdocs\codeigniter4\system\Database\BaseConnection.php(670): CodeIgniter\Database\Postgre\Connection->execute('INSERT INTO tip...')
+#3 C:\xampp\htdocs\codeigniter4\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO tip...')
+#4 C:\xampp\htdocs\codeigniter4\app\Controllers\Home.php(36): CodeIgniter\Database\BaseConnection->query('INSERT INTO tip...')
+#5 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(825): App\Controllers\Home->crear('FRUTAS')
+#6 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\codeigniter4\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2023-12-30 13:58:14 --> ErrorException: pg_query(): Query failed: ERROR:  el valor null para la columna «id» viola la restricción not null
+DETAIL:  La fila que falla contiene (null, 1FRUTAS, t). in C:\xampp\htdocs\codeigniter4\system\Database\Postgre\Connection.php:135
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\xampp\\htdocs...', 135)
+#1 C:\xampp\htdocs\codeigniter4\system\Database\Postgre\Connection.php(135): pg_query(Resource id #136, 'INSERT INTO tip...')
+#2 C:\xampp\htdocs\codeigniter4\system\Database\BaseConnection.php(670): CodeIgniter\Database\Postgre\Connection->execute('INSERT INTO tip...')
+#3 C:\xampp\htdocs\codeigniter4\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO tip...')
+#4 C:\xampp\htdocs\codeigniter4\app\Controllers\Home.php(36): CodeIgniter\Database\BaseConnection->query('INSERT INTO tip...')
+#5 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(825): App\Controllers\Home->crear('FRUTAS')
+#6 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\codeigniter4\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-12-30 13:58:14 --> pg_query(): Query failed: ERROR:  el valor null para la columna «id» viola la restricción not null
+DETAIL:  La fila que falla contiene (null, 1FRUTAS, t).
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\xampp\\htdocs...', 135)
+#1 C:\xampp\htdocs\codeigniter4\system\Database\Postgre\Connection.php(135): pg_query(Resource id #136, 'INSERT INTO tip...')
+#2 C:\xampp\htdocs\codeigniter4\system\Database\BaseConnection.php(670): CodeIgniter\Database\Postgre\Connection->execute('INSERT INTO tip...')
+#3 C:\xampp\htdocs\codeigniter4\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO tip...')
+#4 C:\xampp\htdocs\codeigniter4\app\Controllers\Home.php(36): CodeIgniter\Database\BaseConnection->query('INSERT INTO tip...')
+#5 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(825): App\Controllers\Home->crear('FRUTAS')
+#6 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\codeigniter4\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-12-30 14:04:46 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(825): App\Controllers\Home->crear('FRUTAS')
+#1 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\codeigniter4\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2023-12-30 14:05:31 --> ErrorException: pg_query(): Query failed: ERROR:  llave duplicada viola restricción de unicidad «tipo_producto_pkey»
+DETAIL:  Ya existe la llave (id)=(1). in C:\xampp\htdocs\codeigniter4\system\Database\Postgre\Connection.php:135
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\xampp\\htdocs...', 135)
+#1 C:\xampp\htdocs\codeigniter4\system\Database\Postgre\Connection.php(135): pg_query(Resource id #136, 'INSERT INTO tip...')
+#2 C:\xampp\htdocs\codeigniter4\system\Database\BaseConnection.php(670): CodeIgniter\Database\Postgre\Connection->execute('INSERT INTO tip...')
+#3 C:\xampp\htdocs\codeigniter4\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO tip...')
+#4 C:\xampp\htdocs\codeigniter4\app\Controllers\Home.php(36): CodeIgniter\Database\BaseConnection->query('INSERT INTO tip...')
+#5 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(825): App\Controllers\Home->crear('FRUTAS')
+#6 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\codeigniter4\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-12-30 14:05:31 --> pg_query(): Query failed: ERROR:  llave duplicada viola restricción de unicidad «tipo_producto_pkey»
+DETAIL:  Ya existe la llave (id)=(1).
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\xampp\\htdocs...', 135)
+#1 C:\xampp\htdocs\codeigniter4\system\Database\Postgre\Connection.php(135): pg_query(Resource id #136, 'INSERT INTO tip...')
+#2 C:\xampp\htdocs\codeigniter4\system\Database\BaseConnection.php(670): CodeIgniter\Database\Postgre\Connection->execute('INSERT INTO tip...')
+#3 C:\xampp\htdocs\codeigniter4\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO tip...')
+#4 C:\xampp\htdocs\codeigniter4\app\Controllers\Home.php(36): CodeIgniter\Database\BaseConnection->query('INSERT INTO tip...')
+#5 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(825): App\Controllers\Home->crear('FRUTAS')
+#6 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\codeigniter4\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2023-12-30 14:12:15 --> ErrorException: pg_query(): Query failed: ERROR:  la sintaxis de entrada no es válida para integer: «»
+LINE 1: ...NSERT INTO tipo_producto(id,nombre,estado) VALUES('','FRUTAS...
+                                                             ^ in C:\xampp\htdocs\codeigniter4\system\Database\Postgre\Connection.php:135
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\xampp\\htdocs...', 135)
+#1 C:\xampp\htdocs\codeigniter4\system\Database\Postgre\Connection.php(135): pg_query(Resource id #136, 'INSERT INTO tip...')
+#2 C:\xampp\htdocs\codeigniter4\system\Database\BaseConnection.php(670): CodeIgniter\Database\Postgre\Connection->execute('INSERT INTO tip...')
+#3 C:\xampp\htdocs\codeigniter4\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO tip...')
+#4 C:\xampp\htdocs\codeigniter4\app\Controllers\Home.php(36): CodeIgniter\Database\BaseConnection->query('INSERT INTO tip...')
+#5 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(825): App\Controllers\Home->crear('FRUTAS')
+#6 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\codeigniter4\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-12-30 14:12:15 --> pg_query(): Query failed: ERROR:  la sintaxis de entrada no es válida para integer: «»
+LINE 1: ...NSERT INTO tipo_producto(id,nombre,estado) VALUES('','FRUTAS...
+                                                             ^
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\xampp\\htdocs...', 135)
+#1 C:\xampp\htdocs\codeigniter4\system\Database\Postgre\Connection.php(135): pg_query(Resource id #136, 'INSERT INTO tip...')
+#2 C:\xampp\htdocs\codeigniter4\system\Database\BaseConnection.php(670): CodeIgniter\Database\Postgre\Connection->execute('INSERT INTO tip...')
+#3 C:\xampp\htdocs\codeigniter4\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO tip...')
+#4 C:\xampp\htdocs\codeigniter4\app\Controllers\Home.php(36): CodeIgniter\Database\BaseConnection->query('INSERT INTO tip...')
+#5 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(825): App\Controllers\Home->crear('FRUTAS')
+#6 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\codeigniter4\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-12-30 14:12:38 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(825): App\Controllers\Home->crear('FRUTAS')
+#1 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\codeigniter4\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-12-30 14:13:25 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(825): App\Controllers\Home->crear('FRUTAS')
+#1 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\codeigniter4\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-12-30 14:13:40 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(825): App\Controllers\Home->crear('LEGUMBRES')
+#1 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\codeigniter4\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2023-12-30 14:20:35 --> ErrorException: pg_query(): Query failed: ERROR:  INSERT tiene más columnas de destino que expresiones
+LINE 1: INSERT INTO tipo_producto(nombre,estado) VALUES('LEGUMBRES')...
+                                         ^ in C:\xampp\htdocs\codeigniter4\system\Database\Postgre\Connection.php:135
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\xampp\\htdocs...', 135)
+#1 C:\xampp\htdocs\codeigniter4\system\Database\Postgre\Connection.php(135): pg_query(Resource id #136, 'INSERT INTO tip...')
+#2 C:\xampp\htdocs\codeigniter4\system\Database\BaseConnection.php(670): CodeIgniter\Database\Postgre\Connection->execute('INSERT INTO tip...')
+#3 C:\xampp\htdocs\codeigniter4\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO tip...')
+#4 C:\xampp\htdocs\codeigniter4\app\Controllers\Home.php(36): CodeIgniter\Database\BaseConnection->query('INSERT INTO tip...')
+#5 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(825): App\Controllers\Home->crear('LEGUMBRES')
+#6 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\codeigniter4\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-12-30 14:20:35 --> pg_query(): Query failed: ERROR:  INSERT tiene más columnas de destino que expresiones
+LINE 1: INSERT INTO tipo_producto(nombre,estado) VALUES('LEGUMBRES')...
+                                         ^
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\xampp\\htdocs...', 135)
+#1 C:\xampp\htdocs\codeigniter4\system\Database\Postgre\Connection.php(135): pg_query(Resource id #136, 'INSERT INTO tip...')
+#2 C:\xampp\htdocs\codeigniter4\system\Database\BaseConnection.php(670): CodeIgniter\Database\Postgre\Connection->execute('INSERT INTO tip...')
+#3 C:\xampp\htdocs\codeigniter4\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO tip...')
+#4 C:\xampp\htdocs\codeigniter4\app\Controllers\Home.php(36): CodeIgniter\Database\BaseConnection->query('INSERT INTO tip...')
+#5 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(825): App\Controllers\Home->crear('LEGUMBRES')
+#6 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\codeigniter4\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2023-12-30 14:22:00 --> ErrorException: pg_query(): Query failed: ERROR:  llave duplicada viola restricción de unicidad «tipo_producto_un»
+DETAIL:  Ya existe la llave (nombre)=(FRUTAS). in C:\xampp\htdocs\codeigniter4\system\Database\Postgre\Connection.php:135
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\xampp\\htdocs...', 135)
+#1 C:\xampp\htdocs\codeigniter4\system\Database\Postgre\Connection.php(135): pg_query(Resource id #136, 'INSERT INTO tip...')
+#2 C:\xampp\htdocs\codeigniter4\system\Database\BaseConnection.php(670): CodeIgniter\Database\Postgre\Connection->execute('INSERT INTO tip...')
+#3 C:\xampp\htdocs\codeigniter4\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO tip...')
+#4 C:\xampp\htdocs\codeigniter4\app\Controllers\Home.php(36): CodeIgniter\Database\BaseConnection->query('INSERT INTO tip...')
+#5 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(825): App\Controllers\Home->crear('FRUTAS')
+#6 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\codeigniter4\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-12-30 14:22:00 --> pg_query(): Query failed: ERROR:  llave duplicada viola restricción de unicidad «tipo_producto_un»
+DETAIL:  Ya existe la llave (nombre)=(FRUTAS).
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\xampp\\htdocs...', 135)
+#1 C:\xampp\htdocs\codeigniter4\system\Database\Postgre\Connection.php(135): pg_query(Resource id #136, 'INSERT INTO tip...')
+#2 C:\xampp\htdocs\codeigniter4\system\Database\BaseConnection.php(670): CodeIgniter\Database\Postgre\Connection->execute('INSERT INTO tip...')
+#3 C:\xampp\htdocs\codeigniter4\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO tip...')
+#4 C:\xampp\htdocs\codeigniter4\app\Controllers\Home.php(36): CodeIgniter\Database\BaseConnection->query('INSERT INTO tip...')
+#5 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(825): App\Controllers\Home->crear('FRUTAS')
+#6 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\codeigniter4\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2023-12-30 14:47:47 --> ErrorException: pg_query(): Query failed: ERROR:  la columna «estado» es de tipo boolean pero la expresión es de tipo integer
+LINE 1: UPDATE tipo_producto SET estado=0 WHERE nombre='PESCADOS';
+                                        ^
+HINT:  Necesitará reescribir la expresión o aplicarle una conversión de tipo. in C:\xampp\htdocs\codeigniter4\system\Database\Postgre\Connection.php:135
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\xampp\\htdocs...', 135)
+#1 C:\xampp\htdocs\codeigniter4\system\Database\Postgre\Connection.php(135): pg_query(Resource id #136, 'UPDATE tipo_pro...')
+#2 C:\xampp\htdocs\codeigniter4\system\Database\BaseConnection.php(670): CodeIgniter\Database\Postgre\Connection->execute('UPDATE tipo_pro...')
+#3 C:\xampp\htdocs\codeigniter4\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE tipo_pro...')
+#4 C:\xampp\htdocs\codeigniter4\app\Controllers\Home.php(65): CodeIgniter\Database\BaseConnection->query('UPDATE tipo_pro...')
+#5 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(825): App\Controllers\Home->eliminar('PESCADOS')
+#6 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\codeigniter4\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-12-30 14:47:47 --> pg_query(): Query failed: ERROR:  la columna «estado» es de tipo boolean pero la expresión es de tipo integer
+LINE 1: UPDATE tipo_producto SET estado=0 WHERE nombre='PESCADOS';
+                                        ^
+HINT:  Necesitará reescribir la expresión o aplicarle una conversión de tipo.
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\xampp\\htdocs...', 135)
+#1 C:\xampp\htdocs\codeigniter4\system\Database\Postgre\Connection.php(135): pg_query(Resource id #136, 'UPDATE tipo_pro...')
+#2 C:\xampp\htdocs\codeigniter4\system\Database\BaseConnection.php(670): CodeIgniter\Database\Postgre\Connection->execute('UPDATE tipo_pro...')
+#3 C:\xampp\htdocs\codeigniter4\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE tipo_pro...')
+#4 C:\xampp\htdocs\codeigniter4\app\Controllers\Home.php(65): CodeIgniter\Database\BaseConnection->query('UPDATE tipo_pro...')
+#5 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(825): App\Controllers\Home->eliminar('PESCADOS')
+#6 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\codeigniter4\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}

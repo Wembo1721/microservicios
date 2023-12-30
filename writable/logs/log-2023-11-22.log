@@ -1,0 +1,20 @@
+CRITICAL - 2023-11-22 18:49:12 --> Array to string conversion
+#0 /srv/http/codeigniter4/app/Controllers/Home.php(27): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /srv/http/codeigniter4/system/CodeIgniter.php(825): App\Controllers\Home->test1()
+#2 /srv/http/codeigniter4/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /srv/http/codeigniter4/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /srv/http/codeigniter4/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-11-22 18:50:35 --> Undefined property: App\Controllers\Home::$response_
+#0 /srv/http/codeigniter4/app/Controllers/Home.php(27): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /srv/http/codeigniter4/system/CodeIgniter.php(825): App\Controllers\Home->test1()
+#2 /srv/http/codeigniter4/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#3 /srv/http/codeigniter4/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#4 /srv/http/codeigniter4/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-11-22 18:50:48 --> Call to undefined function App\Controllers\setJson()
+#0 /srv/http/codeigniter4/system/CodeIgniter.php(825): App\Controllers\Home->test1()
+#1 /srv/http/codeigniter4/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController()
+#2 /srv/http/codeigniter4/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest()
+#3 /srv/http/codeigniter4/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
