@@ -33,7 +33,8 @@ $routes->setAutoRoute(true);
 // route since we don't have to scan directories.
 $routes->get('/', 'Home::index');
 $routes->get('/persona', 'Home::datos');
-$routes->get('/empleados', 'Home::baseDatos');
+$routes->get('/empleados', 'Home::empleadosAll');
+$routes->get('/empleado/(:any)', 'Home::empleado/$1');
 $routes->get('/productos', 'Home::productos');
 $routes->get('/insertar/(:any)', 'Home::crear/$1');
 $routes->get('/actualizar/(:any)/(:any)', 'Home::actualizar/$1/$2');

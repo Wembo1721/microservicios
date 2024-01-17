@@ -1,0 +1,27 @@
+ERROR - 2024-01-16 19:57:43 --> ErrorException: pg_query(): Query failed: ERROR:  no existe la columna «cedula»
+LINE 1: SELECT * FROM empleados where cedula='1721766002'
+                                      ^ in C:\xampp\htdocs\codeigniter4\system\Database\Postgre\Connection.php:135
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\xampp\\htdocs...', 135)
+#1 C:\xampp\htdocs\codeigniter4\system\Database\Postgre\Connection.php(135): pg_query(Resource id #136, 'SELECT * FROM e...')
+#2 C:\xampp\htdocs\codeigniter4\system\Database\BaseConnection.php(670): CodeIgniter\Database\Postgre\Connection->execute('SELECT * FROM e...')
+#3 C:\xampp\htdocs\codeigniter4\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM e...')
+#4 C:\xampp\htdocs\codeigniter4\app\Controllers\Home.php(37): CodeIgniter\Database\BaseConnection->query('SELECT * FROM e...')
+#5 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(825): App\Controllers\Home->cedula('1721766002')
+#6 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\codeigniter4\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-01-16 19:57:43 --> pg_query(): Query failed: ERROR:  no existe la columna «cedula»
+LINE 1: SELECT * FROM empleados where cedula='1721766002'
+                                      ^
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\xampp\\htdocs...', 135)
+#1 C:\xampp\htdocs\codeigniter4\system\Database\Postgre\Connection.php(135): pg_query(Resource id #136, 'SELECT * FROM e...')
+#2 C:\xampp\htdocs\codeigniter4\system\Database\BaseConnection.php(670): CodeIgniter\Database\Postgre\Connection->execute('SELECT * FROM e...')
+#3 C:\xampp\htdocs\codeigniter4\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM e...')
+#4 C:\xampp\htdocs\codeigniter4\app\Controllers\Home.php(37): CodeIgniter\Database\BaseConnection->query('SELECT * FROM e...')
+#5 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(825): App\Controllers\Home->cedula('1721766002')
+#6 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\codeigniter4\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
